@@ -1,5 +1,5 @@
 {
-  "$id": "acquiaDrupalPlace_location",
+  "$id": "location",
   "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
   "entityType": "location",
   "displayName": "Location",
