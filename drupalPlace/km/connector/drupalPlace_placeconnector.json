@@ -1,13 +1,13 @@
 {
-  "$id": "acquiaDrupalPlace_placeconnector",
+  "$id": "drupalPlace_placeconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
-  "displayName": "Acquia Place Connector",
+  "displayName": "Drupal Place Connector",
   "entityType": "location",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "${{acquiaDomain}}/jsonapi/node/place",
+        "url": "${{drupalDomain}}/jsonapi/node/place",
         "paginationControl": {
           "cursorPagination": {
             "cursor": "links.next",
@@ -116,7 +116,7 @@
             "Landing Page URL"
           ]
         },
-        "plugin": "acquiaDrupalPlace_constructUrl",
+        "plugin": "drupalPlace_constructUrl",
         "function": "constructUrl"
       }
     }
@@ -128,7 +128,7 @@
       "subfieldPath": []
     },
     {
-      "field": "acquiaDrupalPlace_acquiaDescription",
+      "field": "drupalPlace_drupalDescription",
       "header": "Description",
       "subfieldPath": []
     },

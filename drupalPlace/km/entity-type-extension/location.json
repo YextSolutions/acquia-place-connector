@@ -5,7 +5,7 @@
   "entityType": "location",
   "field": [
     {
-      "id": "acquiaDrupalPlace_acquiaDescription",
+      "id": "drupalPlace_drupalDescription",
       "required": false
     }
   ]
